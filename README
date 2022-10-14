@@ -1,0 +1,41 @@
+########################################
+LAURET Fabien L3 informatique
+
+Infographie
+########################################
+
+1/. Commande pour lancer le programme :
+
+./main.py
+
+2/. Contrôle :
+
+#canon
+z : avancer
+s : reculer
+q : rotation à gauche
+d : rotation à droite
+a : lever le fût
+e : baisser le fût
+
+#caméra
+k : rotation vers la gauche
+m : rotation vers la droite
+l : rotation vers le haut
+o : rotation vers le bas
+r : reset de la caméra
+
+3/. Le programme :
+
+Il peut :
+
+- Déplacer la caméra (plus précisément l'univers) de manière contrôlée,
+- Déplacer le canon dans une zone limitée (avec mouvement des roues qui tournent),
+- Placer une cible aléatoirement dans son terrain,
+- Tirer un projectile et détecter s'il a touché (avec un trigger visuel qui
+change la couleur du terain),
+- Changer la place de la cible une fois touchée.
+
+Il ne peut pas :
+
+- ajouter des textures sur les objets.
